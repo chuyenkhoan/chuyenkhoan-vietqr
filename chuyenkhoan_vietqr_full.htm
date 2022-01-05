@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Chuyển Khoản VietQR</title>
+
+  <!-- Config ChuyenKhoan VietQR -->
+  <script>
+    function ckConfig() {
+      return {
+        ckicon: true,
+        title: 'THÔNG TIN THANH TOÁN FULL',
+        subtitle: 'Mời bạn quét mã Chuyển khoản QR để thanh toán',
+        amount: 2022,
+        message: 'NAP TK 0912345678',
+        accounts: [
+          {
+            bankName: 'Vietcombank',
+            accountNumber: '0451000285534',
+            accountName: 'CTCP GIAI PHAP THANH TOAN CHUYEN KHOAN',
+          }
+        ],
+        guide: 'NAP TK [SỐ ĐIỆN THOẠI]',
+        labels: {
+            accountNumber: 'Số tài khoản',
+            amount: 'Số tiền (VNĐ)',
+            message: 'Nội dung chuyển khoản',
+            amountError: 'Số tiền không hợp lệ',
+            messageError: 'Nội dung không hợp lệ (cần tiếng Việt không dấu)',
+            copyNotify: 'Đã copy',
+            messageGuide: 'Nội dung chuyển khoản vui lòng ghi rõ:'
+        }
+      }
+    }
+  </script>
+
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+
+  <!-- Show CKQR Dialog -->
+  <div style="margin: auto; text-align: center; padding: 40px">
+    <button onclick='CKQR.payNow(2022, "Chuyenkhoan.com CMNM 2022")'>Chuyển khoản</button>
+  </div>
+
+  <!-- Show CKQR Box-->
+  <div id="chuyenkhoan_vietqr" style="margin: auto; text-align: center;"></div>
+
+</body>
+
+<!-- Load ChuyenKhoan VietQR lib -->
+<script async src="https://chuyenkhoan.com/web/chuyenkhoan-vietqr-1.1.js"></script>
+
+</html>

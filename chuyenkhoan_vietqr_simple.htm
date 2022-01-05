@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Chuyển Khoản VietQR</title>
+
+  <!-- Config ChuyenKhoan VietQR -->
+  <script>
+    function ckConfig() {
+      return {
+        ckicon: true,
+        accounts: [
+          {
+            bankName: 'Vietcombank',
+            accountNumber: '0451000285534',
+            accountName: 'CTCP GIAI PHAP THANH TOAN CHUYEN KHOAN',
+          }
+        ]
+      }
+    }
+  </script>
+
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+
+  <!-- Show CKQR Dialog -->
+  <div style="margin: auto; text-align: center; padding: 40px">
+    <button onclick='CKQR.payNow(2022, "Chuyenkhoan.com CMNM 2022")'>Chuyển khoản</button>
+  </div>
+
+  <!-- Show CKQR Box-->
+  <div id="chuyenkhoan_vietqr" style="margin: auto; text-align: center;"></div>
+
+</body>
+
+<!-- Load ChuyenKhoan VietQR lib -->
+<script async src="https://chuyenkhoan.com/web/chuyenkhoan-vietqr-1.1.js"></script>
+
+</html>
