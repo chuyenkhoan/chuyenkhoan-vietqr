@@ -1,5 +1,5 @@
 # Chuyển Khoản VietQR
-Dưới đây là hướng dẫn thanh toán chuyển khoản VietQR cho website, bạn có thể xem trước ví dụ [chuyenkhoan_vietqr_simple.htm](https://github.com/chuyenkhoan/chuyenkhoan-vietqr/chuyenkhoan_vietqr_simple.htm) hoặc [chuyenkhoan_vietqr_full.htm](https://github.com/chuyenkhoan/chuyenkhoan-vietqr/chuyenkhoan_vietqr_full.htm) để trải nghiệm cách hoạt động của thư viện.
+Dưới đây là hướng dẫn thanh toán chuyển khoản VietQR cho website, bạn có thể xem trước ví dụ [chuyenkhoan_vietqr_simple.htm](https://github.com/chuyenkhoan/chuyenkhoan-vietqr/blob/main/chuyenkhoan_vietqr_simple.htm) hoặc [chuyenkhoan_vietqr_full.htm](https://github.com/chuyenkhoan/chuyenkhoan-vietqr/blob/main/chuyenkhoan_vietqr_full.htm) để trải nghiệm cách hoạt động của thư viện.
 
 ## Bước 1: Thêm thư viện Chuyển khoản VietQR
 
